@@ -6,7 +6,7 @@ add instructions for how to use\
 add anything that will facilitate and promote use of your repo
 
 
-git clone https://github.com/superBirdy/stat624demo2-.git\
+git clone https://github.com/superBirdy/stat624demo2-.git \
 cd stat624demo2-\
 echo "x=5" >>test.py\
 git add .\
