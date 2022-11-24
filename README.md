@@ -13,3 +13,14 @@ git add .\
 git status\
 git commit -m "add test.py"\
 git push origin main
+
+
+cd stat624demo2-\
+#swith to a new branch 'dev'\
+git checkout -b dev\
+#create another python\
+echo 'print("Hello World!")' >> hello_world.py\
+git add .\
+git status\
+git commit -m "hello_world.py"\
+git push --set-upstream origin dev
